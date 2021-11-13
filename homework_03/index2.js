@@ -20,7 +20,7 @@ let div = function (a,b) {
 let calculation = (function() {
     let x, y, operation; 
     let setOperation = function(a, b, c) { 
-        if(a, b){  
+        if(a, b) {  
             x = a;
             y = b;
         } 
@@ -46,8 +46,8 @@ let calculation = (function() {
 
     let calculate = function() {
         return operation(x,y);
-
     }
+    
     return {
         setOperation,
         calculate
